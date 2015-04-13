@@ -1,0 +1,64 @@
+body{
+	background:$body;
+	width:100%;
+	margin:0 auto;
+	color:$font;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration:none;
+}
+.vertical__align--center{
+	vertical-align:middle,
+}
+.vertical__align--bottom{
+	vertical-align:bottom,
+}
+.circle__small{
+	height:150px;
+	width:150px;
+	border-radius:100%;
+	display:inline-block;
+	margin:0 9%;
+	}
+.circle__medium{
+	height:250px;
+	width:250px;
+	border-radius:100%;
+	display:inline-block;
+	margin-bottom:30px;
+}
+.left__align{
+	align:left;
+	position:relative;
+}
+.center__align{
+	align:center;
+	position:relative;
+}
+.right__align{
+	align:right;
+	position:relative;
+}
+.text__left--align{
+	text-align:left;
+}
+.text__center--align{
+	text-align:center;
+}
+.text__right--align{
+	text-align:right;
+}
+.text__justify--align{
+	text-align:justify;
+}
+.left__float{
+	float:left;
+}
+.center__float{
+	float:left;
+	margin-left:5%;
+}
+.right__float{
+	float:right;
+}

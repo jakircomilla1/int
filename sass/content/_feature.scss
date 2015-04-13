@@ -1,0 +1,35 @@
+.feature{
+	color:#FFFFFF;
+	text-align:center;
+	width:100%;
+	height: 600px;
+	margin:0 auto;
+	padding-top:60px;
+	display:block;
+	.feature__content{
+		width:80%;
+		display:inline-block;
+		.feature__top{
+			padding-top:40px;
+			.feature__top--one{
+				background: url("..//images/pace1.jpg");
+				background-repeat: no-repeat;
+				//@extend .circle;
+			}
+			.circle_two{
+				background: url("..//images/pace2.jpg");
+				background-repeat: no-repeat;
+				//@extend .circle;
+			}
+			.circle_three{
+				background: url("..//images/pace3.jpg");
+				background-repeat: no-repeat;
+				//@extend .circle;
+			}
+		}
+		.feature_bottom{
+			margin:0 auto;
+			padding:20px;
+		}
+	}
+}
